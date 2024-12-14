@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.nav-logo {
+  height: 35px;
+  width: 45px;
+}
+
+.nav-link {
+  color: #323f4b;
+  font-weight: 500;
+}
+
+.home-bg {
+  background-image: url("./Images/vr-banner-bg.png");
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: left center; /* Position the image to the left and center vertically */
+  background-attachment: fixed; /* Keep the background fixed */
+}
+
+.home-heading {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.home-button {
+  color: white;
+  background-color: #1a2137;
+  border-radius: 5px;
+  border: solid transparent;
+  font-size: 1.1em;
+  height: 40px;
+  width: 120px;
+}
+
+.card-container {
+  border: solid transparent;
+  text-align: center;
+}
+
+.card-image {
+  width: 15%;
+}
+.card-heading {
+  font-size: 20px;
+  font-family: "Roboto";
+  color: #1f2933;
+}
+
+.card-desc {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #48555e;
+}
+
+.hh{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    color: #263033 ;
+}
+
+
+.bg-selection-container{
+    padding: 24px;
+    background-color: #f9fbfe;
+}
+
+.bg-selection-heading{
+    color: #1f2933;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.selection-image-card{
+    width: 100px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.selection-para{
+    font-size: 19px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.home{
+    padding: 10px;
+    font-family: "Roboto";
+}
+
+.home-card-image{
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+    border: solid transparent;
+    width: 100%;
+}
+
+.home-card-heading{
+    color: #1f2933;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: "Roboto";
+}
+
+.home-card-para{
+    color: #7b8794;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.home-card-button{
+    background-color: #1a2137;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 0px;
+    font-family: "Roboto";
+}
+
+
+.blog-text-container{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.blog-text-heading{
+    font-size: 17px;
+    color: #959ead;
+    font-weight: bold;
+}
+
+.blog-text-para{
+    font-size: 20px;
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.blog-section-button{
+    background-color: #1754a1;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 15px;
+    color: white;
+    width: 150px;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.product-section{
+    background-color: white;
+}
+
+.vr-headset-bg{
+    background-image: url("./Images/vr-products-headset-img.png");
+    background-size: cover;
+    height: 70vh;
+}
+
+.product-heading{
+    color: white;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.product-price{
+    color: white;
+}
+
+.product-button{
+    border: solid 2px white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+    width: 135px;
+    font-weight: 500;
+}
+
+.vr-controller-bg{
+    background-image: url("./Images/vr-controllers-img.png");
+    background-size: cover;
+    height: 70vh;
+}
+
+.footer-section{
+    background-color: #19232d;
+    padding-top: 30px;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+}
+
+.top-card {
+    color: #5a7184;
+}
+
+.logo-style {
+    height: 45px;
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.custom-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #202b36;
+    padding-top: 10px;
+    padding-left: 12px;
+    margin-right: 8px;
+}
+
+.bottom-card {
+    color: #5a7184;
+}
+
+
+.bottom-card-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.para {
+    font-size: 15px;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+.list-style {
+    list-style: circle;
+    padding-left: 0px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}
+
+.bottom-tag {
+    color: #959ead;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
